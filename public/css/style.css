@@ -20,5 +20,11 @@ body{
     z-index: -1;
     top:0;
     left:0;
-    width:100%;
+    width: 100vw;
+}
+@media (max-width:1095px){
+    #video{
+        height:100%;
+        width: auto;
+    }
 }
